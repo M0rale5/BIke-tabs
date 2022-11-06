@@ -1,0 +1,180 @@
+
+
+@media (max-width:400px){
+
+    
+
+    .content{
+        max-width: 335px;
+        margin: 40px 20px;
+        
+    }
+    .container{
+        max-width: 295px;
+        padding: 30px 20px;
+        border-radius: 0px 0px 20px 20px;
+
+    }
+    .presentation{
+        display: block;
+    }
+    .separator__Line{
+        margin-top: 30px;
+    }
+    .img__wrapper{
+        position: static;
+        width: 100%;
+        height: 192px;
+        background-image: url(./Bike.png);
+        background-position: right center;
+        background-size: cover
+
+    }
+    .img__wrapper_2{
+        position: static;
+        width: 100%;
+        height: 192px;
+        background-image: url(./bike2.png);
+        background-position: right center;
+        background-size: cover
+    }
+    .text__header h1{
+        font-size: 24px;
+    }
+    .text__header p{
+        font-size: 14px;
+    }
+    .header__2 h2{
+        font-size: 16px ;
+    }
+    .characteristics{
+        margin-top: 30px;
+    }
+    .characteristics ol{
+        column-count: auto;
+        padding-right: 0px;
+    
+    }
+
+    li:nth-child(2){
+        margin-top: 0px;
+    }
+    li:nth-child(4){
+        margin-top: 0px;
+    }
+    .characteristics ol li{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    
+    .add h2{
+        font-size: 16px;
+    }
+
+    .form{
+        display: block;
+        margin-top: 15px;
+        input{
+            padding: 14px 97px 14px 14px;
+            font-size: 14px;
+            color: #0C0C0C;
+
+        }
+        button{
+            margin-top: 15px;
+            margin-left: 0;
+            padding: 14px 112.5px;
+        }
+    }
+    .bottom__btns .blue__active__btn{
+        padding: 15.5px 40px;
+    }
+    .tabs__block{
+        display: none;
+    }
+    .tabs__block:target {
+        display: none;
+      }
+    .tabs__items{
+        width: initial;
+        display: none;
+    }
+
+    .tabs__item .active{
+        content: url(./fi-rr-angle-small-down.png);
+        width: 24px;
+        height: 24px;
+    }
+
+
+    // --------------------------------------------------------hideen--list--------------------------------------------------------------------------
+    .checkbox-hide-list{
+        display: block;
+    }
+    #tab-01-mobile{
+        display: none;
+    }
+    #tab-02-mobile{
+        display: none;
+    }
+    .mountin-bike{
+        // display: flex;  
+        // justify-content: space-between;
+        background: #FFFFFF;
+        border-radius: 20px;    
+        position: relative;
+    }
+    .woman-bike{
+        // display: flex;
+        // justify-content: space-between;
+        background: #FFFFFF;
+        border-radius: 20px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .bikes-list{
+        display: block;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #0C0C0C;
+        background: #FFFFFF;
+        height: 100%;
+        // width: 100%;
+        border-radius: 20px;
+        padding: 22px 25px 21px 20px;
+        position: relative;
+        img{
+            width: 24px;
+            height: 24px;
+            display: block;
+            position: absolute;
+            bottom: 21px;
+            right: 25px;
+        }
+    }
+    .tab-input{
+        appearance: none;
+        position: absolute;
+    }
+
+    #hide-list-01:checked ~ #tab-01-mobile{
+        display: block;
+        // position: absolute;
+        // top: 55px;
+        // left: 0;
+    }
+    
+    #hide-list-02:checked ~ #tab-02-mobile{
+        display: block;
+        // position: absolute;
+        // top: 55px;
+        // left: 0;
+    
+
+    }
+    
+    
+}

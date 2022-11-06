@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background: #F4F4F4;
+}
+
+.content {
+  max-width: 846px;
+  position: relative;
+  margin: 81px 0px 81px 81px;
+}
+
+.tabs__block {
+  display: none;
+  position: relative;
+}
+
+.tabs__block:target {
+  display: block;
+}
+
+.tabs__items {
+  width: 555px;
+}
+
+.tabs__item {
+  display: block;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  color: #0C0C0C;
+  text-decoration: none;
+  background: #D9D9D9;
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px 24px;
+}
+
+.active {
+  background: #FFFFFF;
+  color: #3922C5;
+}
+
+.class__items {
+  text-decoration: none;
+  width: 267px;
+  padding: 20px 24px;
+  background: #D9D9D9;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.container {
+  max-width: 726px;
+  padding: 40px 60px;
+  background: #FFFFFF;
+  border-radius: 0px 20px 20px 20px;
+}
+
+.tabs__items {
+  display: flex;
+}
+
+.presentation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img__wrapper {
+  width: 290px;
+  height: 232px;
+  background-image: url(./Bike.png);
+  background-position: right center;
+  background-size: cover;
+  position: absolute;
+  right: 556px;
+}
+
+.text__header {
+  max-width: 425px;
+}
+.text__header h1 {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 150%;
+}
+.text__header p {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #494949;
+}
+.text__header .first__p {
+  margin-top: 20px;
+}
+.text__header .second__p {
+  margin-top: 16px;
+}
+
+.separator__Line {
+  margin-top: 40px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.characteristics {
+  margin-top: 40px;
+}
+.characteristics h2 {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #0C0C0C;
+}
+.characteristics ol {
+  margin: 20px 0px 0px 19px;
+  padding: 0px;
+  -moz-column-count: 2;
+       column-count: 2;
+  padding-right: 121px;
+}
+.characteristics ol li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #494949;
+}
+.characteristics li:nth-child(2) {
+  margin-top: 16px;
+}
+.characteristics li:nth-child(4) {
+  margin-top: 16px;
+}
+
+.add {
+  margin-top: 40px;
+}
+.add h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+.add input {
+  padding: 14px 157px 14px 14px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 16px;
+  font-size: 16px;
+  color: #0C0C0C;
+}
+.add button {
+  border: none;
+  padding: 14px 24px;
+  background: #3922C5;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.add button:hover {
+  background: #2C1A9A;
+}
+.add button:focus {
+  background: #1F1368;
+}
+
+.form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bottom__btns {
+  margin-top: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(12, 12, 12, 0.1);
+  border-radius: 20px;
+  padding: 30px 0px 30px 36px;
+}
+.bottom__btns .blue__active__btn {
+  border: none;
+  padding: 14px 24px;
+  background: #3922C5;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.bottom__btns .blue__active__btn:hover {
+  background: #2C1A9A;
+}
+.bottom__btns .blue__active__btn:focus {
+  background: #1F1368;
+}
+.bottom__btns .non__active__btn {
+  border: none;
+  padding: 14px 24px;
+  background: transparent;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #0C0C0C;
+  cursor: pointer;
+}
+
+.img__wrapper_2 {
+  width: 326px;
+  height: 279px;
+  background-image: url(./bike2.png);
+  background-position: right center;
+  background-size: cover;
+  position: absolute;
+  right: 520px;
+}
+
+#second__list {
+  list-style: url(./fi-rr-bike.svg);
+  padding-right: 101px;
+}
+
+.checkbox-hide-list {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
