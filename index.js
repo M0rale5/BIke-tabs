@@ -1,4 +1,4 @@
-document.location.href = "#tab_01"
+//document.location.href = "#tab_01"
 
 const tabsBtn = document.querySelectorAll('.tabs__item');
 
